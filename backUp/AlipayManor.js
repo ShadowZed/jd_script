@@ -2,7 +2,7 @@
 // 半自动提醒支付宝蚂蚁庄园喂食。
 // 15 */4 * * * AlipayManor.js
 // 自用 Modified from zZPiglet
-
+#
 const $ = new Env('蚂蚁庄园');
 const manor = "alipays://platformapi/startapp?appId=66666674";
 

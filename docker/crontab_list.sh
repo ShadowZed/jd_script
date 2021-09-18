@@ -232,4 +232,5 @@
 15 0 * * * node /scripts/jd_ccSign.js >> /scripts/logs/jd_ccSign.log 2>&1
 #内容鉴赏官
 15 3,6 * * * node /scripts/jd_connoisseur.js >> /scripts/logs/jd_connoisseur.log 2>&1
-#
+#店铺签到
+7 0,17 * * * node /scripts/jd_dpqd.js >> /scripts/logs/jd_dpqd.log 2>&1

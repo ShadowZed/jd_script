@@ -29,7 +29,7 @@ cron "0 2 * * *" script-path=jd_price.js,tag=京东保价
 
 ============小火箭=========
 京东保价 = type=cron,script-path=jd_price.js, cronexpr="0 2 * * *", timeout=3600, enable=true
- */
+ */ 
 
 const $ = new Env('京东保价');
 

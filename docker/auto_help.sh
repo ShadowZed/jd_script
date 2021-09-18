@@ -1,6 +1,6 @@
 #set -e
 
-#日志路径
+#日志路径#
 logDir="/scripts/logs"
 
 # 处理后的log文件

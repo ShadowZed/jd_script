@@ -234,3 +234,5 @@
 15 3,6 * * * node /scripts/jd_connoisseur.js >> /scripts/logs/jd_connoisseur.log 2>&1
 #店铺签到
 7 0,17 * * * node /scripts/jd_dpqd.js >> /scripts/logs/jd_dpqd.log 2>&1
+#京东众筹
+20 12,14 * * * node /scripts/jd_hwsx.js >> /scripts/logs/jd_hwsx.log 2>&1
